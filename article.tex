@@ -1,0 +1,40 @@
+% A simple LaTeX template for an article
+\documentclass[12pt]{article}
+
+\usepackage{tikz}
+\usepackage{xcolor}
+
+% Define colors
+\definecolor{phase1}{HTML}{3182CE}  % Blue
+\definecolor{phase2}{HTML}{38A169}  % Green
+\definecolor{phase3}{HTML}{E53E3E}  % Red
+
+% Document information
+\title{Gantt Chart}
+\author{Jun Cao}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Your abstract goes here.
+\end{abstract}
+
+\section{Introduction}
+This is a minimal example of a LaTeX article with a Gantt chart.
+
+\section{Gantt Chart}
+Figure~\ref{fig:gantt} is a Gantt chart for the project.
+
+% Insert the Gantt chart and resize it to the width of the text
+\begin{figure}[htbp]
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \input{gantt_template}%
+    }
+    \caption{Gantt Chart}\label{fig:gantt}
+\end{figure}
+
+\end{document}
