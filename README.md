@@ -19,10 +19,8 @@ The Gantt chart template is implemented in `gantt_template.tex`, offering flexib
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
-
 ## Contributing
 Feel free to open issues or submit pull requests for improvements.
 
 ## Contact
-[你的联系方式或者GitHub用户名]
+junca@chalmers.se
